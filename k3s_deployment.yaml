@@ -29,6 +29,6 @@ spec:
       containers:
       - name: raspk3s
         image: pavelzagalsky/raspk3s:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
